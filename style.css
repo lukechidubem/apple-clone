@@ -1,0 +1,361 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wght@8..144,300;8..144,400;8..144,700&display=swap");
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+.apple-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: black;
+  color: white;
+  height: 40px;
+  list-style: none;
+  width: 100%;
+  padding: 0 170px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.apple-nav img {
+  width: 25px;
+}
+
+.apple-nav img:hover {
+  color: white;
+}
+
+.apple-nav li {
+  color: rgb(215, 208, 208);
+}
+
+.apple-nav li:hover {
+  color: white;
+}
+
+#hero {
+  width: 100%;
+  height: 90vh;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  font-family: Roboto;
+}
+
+#hero:hover {
+  cursor: pointer;
+}
+
+.macbook-air-text {
+  position: absolute;
+  font-size: 24px;
+  top: 40%;
+  left: 20%;
+}
+
+.macbook-air-text h1 {
+  margin-bottom: 10px;
+}
+
+.macbook-air-text h3 {
+  margin-bottom: 10px;
+  color: rgb(48, 43, 43);
+}
+
+.macbook-air-text p {
+  margin-bottom: 10px;
+  font-size: 20px;
+  color: rgb(93, 80, 80);
+}
+
+.macbook-air-text a {
+  text-decoration: none;
+  color: rgb(60, 60, 236);
+}
+
+.macbook-air-text a:hover {
+  text-decoration: underline;
+}
+
+a span:hover {
+  text-decoration: none;
+}
+
+.supercharged-logo {
+  background-color: black;
+  color: white;
+  font-size: 10px;
+  padding: 12px 6px;
+}
+
+.macbook-air-img {
+  background-image: url("./img/macbookair__large.png");
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+}
+
+.macbook-pro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 95vh;
+  background-image: url("./img/macbook-pro-13_bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  font-size: 24px;
+}
+
+.macbook-pro h1 {
+  margin-top: -380px;
+  margin-bottom: 10px;
+}
+
+.macbook-pro h3 {
+  margin-bottom: 30px;
+  color: rgb(161, 157, 157);
+}
+
+.supercharged-logo-shadow {
+  background-color: black;
+  color: white;
+  font-size: 10px;
+  padding: 12px 6px;
+
+  border: 3px solid;
+  border-image-slice: 1;
+  /* border-width: 3px; */
+  border-image-source: linear-gradient(to left, #743ad5, #d53a9d);
+  box-shadow: 1px 2px 5px 3px rgba(170, 77, 15, 0.582);
+}
+
+.macbook-pro a {
+  text-decoration: none;
+  margin-bottom: 40px;
+  color: rgb(60, 60, 236);
+}
+
+.macbook-pro a:hover {
+  text-decoration: underline;
+}
+
+.macbook-pro-laptop {
+  width: 500px;
+  height: 300px;
+}
+
+.iphone13 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 95vh;
+  background-image: url("./img/iPhone13.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.iphone13 h2 {
+  font-size: 50px;
+  margin-top: -350px;
+  margin-bottom: 10px;
+}
+
+.iphone13 h3 {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.iphone13 a {
+  text-decoration: none;
+  color: rgb(60, 60, 236);
+  font-size: 24px;
+}
+
+.ipad-iphone-container{
+  display: flex;
+  margin-top: 20px;
+  justify-content:center;
+}
+
+.ipad {
+  display: flex;
+  flex: 50%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 95vh;
+  margin-right: 10px;
+  background-image: url("./img/iPadair.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.ipad h2 {
+  font-size: 30px;
+  margin-top: -350px;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.ipad h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.ipad a {
+  text-decoration: none;
+  color: rgb(60, 60, 236);
+  font-size: 24px;
+}
+
+.iphone13pro {
+  display: flex;
+  flex-direction: column;
+  flex: 50%;
+  align-items: center;
+  justify-content: center;
+  height: 95vh;
+  margin-left: 10px;
+  background-image: url("./img/iphone13pro.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.iphone13pro h2 {
+  font-size: 30px;
+  margin-top: -350px;
+  margin-bottom: 10px;
+}
+
+.iphone13pro h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.iphone13pro a {
+  text-decoration: none;
+  color: rgb(60, 60, 236);
+  font-size: 24px;
+}
+
+.ipadmini-iphone-container{
+  display: flex;
+  margin-top: 20px;
+  justify-content:center;
+}
+
+.ipadmini {
+  display: flex;
+  flex: 50%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 95vh;
+  margin-right: 10px;
+  background-image: url("./img/ipad_mini.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.ipadmini h2 {
+  font-size: 30px;
+  margin-top: -350px;
+  margin-bottom: 10px;
+  color: black;
+}
+
+.ipadmini h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: black;
+}
+
+.ipadmini a {
+  text-decoration: none;
+  color: rgb(60, 60, 236);
+  font-size: 20px;
+}
+
+.mini {
+  background: -webkit-linear-gradient(rgb(172, 21, 64), rgb(150, 8, 148));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.iphone13se {
+  display: flex;
+  flex-direction: column;
+  flex: 50%;
+  align-items: center;
+  justify-content: center;
+  height: 95vh;
+  margin-left: 10px;
+  background-image: url("./img/iphonese_avail.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.iphone13se h2 {
+  font-size: 30px;
+  margin-top: -350px;
+  margin-bottom: 10px;
+}
+
+.iphone13se h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.iphone13se a {
+  text-decoration: none;
+  color: rgb(60, 60, 236);
+  font-size: 20px;
+}
+
+.ipadmini-iphone-container{
+  display: flex;
+  margin-top: 20px;
+  justify-content:center;
+}
+
+.se{
+  border: 2px solid black;
+  border-radius: 8px;
+  font-size: 20px;
+}
+
+
+
+@media (max-width: 1000px) {
+  #hero {
+    height: 50vh;
+  }
+  .macbook-air-text {
+    position: absolute;
+    font-size: 24px;
+    height: 100vh;
+    top: -140px;
+    right: 0%;
+  }
+
+  .macbook-air-img {
+    margin-top: 210px;
+  }
+}
